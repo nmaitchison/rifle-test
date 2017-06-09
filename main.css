@@ -8,8 +8,12 @@ header {
   float: left;
 }
 
-.header-nav {
+.nav-list {
   float: right;
+  display: inline;
+}
+
+.nav-list li {
   display: inline;
 }
 
@@ -24,4 +28,9 @@ header {
 
 #photo {
   width: 100%;
+}
+
+.foot-copy-right {
+  float: left;
+  pos
 }
