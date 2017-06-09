@@ -1,5 +1,24 @@
+header {
+  position: fixed;
+  display: inline;
+}
+
+.header {
+  float: left;
+}
+
+.header-nav {
+  float: right;
+  display: inline;
+}
+
+
 .photo-gallery {
-  width: 200px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #photo {
