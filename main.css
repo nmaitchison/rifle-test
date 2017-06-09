@@ -1,9 +1,10 @@
 header {
   position: fixed;
   display: inline;
+  z-index: 2;
 }
 
-.header {
+.header-logo {
   float: left;
 }
 
