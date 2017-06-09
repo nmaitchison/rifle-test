@@ -1,4 +1,6 @@
 header {
+  width: 70%;
+  float: center;
   position: fixed;
   display: inline;
   z-index: 2;
@@ -17,7 +19,6 @@ header {
   display: inline;
 }
 
-
 .photo-gallery {
   position: absolute;
   width: 100%;
@@ -30,7 +31,18 @@ header {
   width: 100%;
 }
 
-.foot-copy-right {
+footer {
+  position: relative;
+  display: inline;
+  float: center;
+  width: 70%;
+}
+
+.footer-copy-right {
   float: left;
-  pos
+}
+
+.footer-list {
+  float: right;
+  display: inline;
 }
