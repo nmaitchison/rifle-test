@@ -13,6 +13,7 @@ header {
   position: fixed;
   display: inline-block;
   width: 80%;
+  height: 50%;
   border: 1px solid #204156;
 }
 
