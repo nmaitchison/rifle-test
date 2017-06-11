@@ -16,6 +16,7 @@ header {
 .nav-list {
   float: right;
   display: inline;
+  border: 1px solid #204158;
 }
 
 .nav-list li {
