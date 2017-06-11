@@ -1,10 +1,10 @@
 header {
   height: 60px;
   width: 70%;
-  float: center;
   position: fixed;
   display: inline;
   z-index: 2;
+  border: 1px solid #204156;
 }
 
 .header-logo {
@@ -21,7 +21,7 @@ header {
   display: inline;
 }
 
-.photo-gallery {
+/*.photo-gallery {
   position: absolute;
   width: 100%;
   display: flex;
@@ -48,3 +48,4 @@ footer {
   float: right;
   display: inline;
 }
+*/
