@@ -12,15 +12,21 @@ header {
   border: 1px solid #204156;
 }
 
+a {
+  text-decoration: none;
+}
+
+}
 #logo {
   float: left;
-  height: 20%
+  height: 5%
   border: 1px solid #204158;
 }
 
 .nav-list {
   float: right;
   display: inline;
+
   border: 1px solid #204158;
 }
 
