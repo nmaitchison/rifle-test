@@ -1,5 +1,5 @@
 header {
-  height: 60%
+  height: 60%;
   width: 70%;
   float: center;
   position: fixed;
@@ -9,6 +9,7 @@ header {
 
 .header-logo {
   float: left;
+  height: 20%;
 }
 
 .nav-list {
