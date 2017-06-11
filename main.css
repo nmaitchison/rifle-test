@@ -1,3 +1,8 @@
+.container {
+  width: 1080px;
+  position: relative;
+}
+
 header {
   /*height: 100px;
   width: 70%;
@@ -6,9 +11,8 @@ header {
   display: inline;
   z-index: 2;*/
   position: fixed;
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+  display: inline-block;
+  width: 100%;
   border: 1px solid #204156;
 }
 
@@ -26,6 +30,7 @@ header {
 
 .nav-list li {
   display: inline;
+  text-transform: uppercase;
 }
 
 /*.photo-gallery {
