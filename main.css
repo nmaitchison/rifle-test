@@ -12,7 +12,7 @@ header {
   z-index: 2;*/
   position: fixed;
   display: inline-block;
-  width: 100%;
+  width: 80%;
   border: 1px solid #204156;
 }
 
