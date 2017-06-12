@@ -31,7 +31,7 @@ a {
 }
 
 .nav-list li {
-  margin: 30%;
+  margin: 30px;
   display: inline;
   text-transform: uppercase;
 }
