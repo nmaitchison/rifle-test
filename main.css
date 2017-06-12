@@ -35,14 +35,13 @@ header {
 .nav-list li {
    margin: 0 40px 0 0;
   display: inline;
+}
+
+.header-nav a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Gotham SSm A','Gotham SSm B';
   color: #484e51;
-}
-
-.header-nav a {
-
 }
 
 /*.photo-gallery {
