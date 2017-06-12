@@ -43,11 +43,22 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   font-family: Arial;
-  font-weight: bold;
+  font-weight: 500;
   color: #363636;
 }
 
 /* MAIN: BANNER, GALLERY, BIO */
+.hero-banner{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 1px solid #204156;
+}
+
+#banner {
+  width: auto;
+  height: auto;
+}
 /*.photo-gallery {
   position: absolute;
   width: 100%;
