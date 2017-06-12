@@ -1,6 +1,11 @@
+body{
+  max-width: 1200px;
+  margin: auto;
+}
+
 header {
   position: fixed;
-  margin-left: 40px;
+  margin-left: 40%
   display: inline-block;
   width: 80%;
   height: 25%;
@@ -31,7 +36,7 @@ a {
 }
 
 .nav-list li {
-   margin: 20px 40px 0 0;
+   margin: 40px 40px 0 0;
   display: inline;
   text-transform: uppercase;
 }
