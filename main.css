@@ -1,6 +1,6 @@
 header {
   position: fixed;
-  margin: 30px;
+  margin-left: 40px;
   display: inline-block;
   width: 80%;
   height: 25%;
@@ -31,7 +31,7 @@ a {
 }
 
 .nav-list li {
-  margin: 30px;
+   margin: 20px 40px 0 0;
   display: inline;
   text-transform: uppercase;
 }
