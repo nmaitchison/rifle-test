@@ -3,17 +3,17 @@ body{
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   position: fixed;
-  margin-left: 40%
   display: inline-block;
+  margin-left: 50%;
   width: 80%;
   height: 25%;
   border: 1px solid #204156;
-}
-
-a {
-  text-decoration: none;
 }
 
 .header-logo {
@@ -31,12 +31,13 @@ a {
 
 .nav-list {
   float: right;
+  margin-top: 40px;
   display: inline;
   border: 1px solid #204158;
 }
 
 .nav-list li {
-   margin: 40px 40px 0 0;
+   margin: 0 40px 0 0;
   display: inline;
   text-transform: uppercase;
 }
