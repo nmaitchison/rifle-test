@@ -10,10 +10,17 @@ a {
   text-decoration: none;
 }
 
+.header-logo {
+  max-width: 200px;
+  width: auto;
+  height: auto;
 }
+
+
 #logo {
   float: left;
-  height: 5%
+  width: 100%;
+  height: auto;
   border: 1px solid #204158;
 }
 
