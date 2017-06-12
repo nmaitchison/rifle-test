@@ -10,7 +10,6 @@ a {
 header {
   position: fixed;
   display: inline-block;
-  margin-left: 40px;
   width: 80%;
   height: auto;
   border: 1px solid #204156;
