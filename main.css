@@ -48,11 +48,17 @@ header {
 }
 
 /* MAIN: BANNER, GALLERY, BIO */
-.hero-banner{
+main{
   position: relative;
-  width: 100%;
+  width: 80%;
   height: auto;
   border: 1px solid #204156;
+}
+
+.hero-banner {
+  max-width: 1062px;
+  width: auto;
+  height: auto;
 }
 
 #banner {
