@@ -27,20 +27,22 @@ header {
 
 .nav-list {
   float: right;
-  margin-top: 30px;
+  margin-top: 55px;
   display: inline;
   border: 1px solid #204158;
 }
 
 .nav-list li {
    margin: 0 40px 0 0;
-  display: inline;
+   display: inline;
 }
 
 .header-nav a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Gotham SSm A','Gotham SSm B';
+  font-style: normal;
+  font-weight: 700;
   color: #484e51;
 }
 
