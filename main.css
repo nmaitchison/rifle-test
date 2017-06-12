@@ -1,14 +1,8 @@
 header {
-  /*height: 100px;
-  width: 70%;
-  position: fixed;
-  float:center
-  display: inline;
-  z-index: 2;*/
   position: fixed;
   display: inline-block;
   width: 80%;
-  height: 20%;
+  height: 150px;
   border: 1px solid #204156;
 }
 
