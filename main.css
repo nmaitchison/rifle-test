@@ -4,6 +4,7 @@ body{
   float: none;
 }
 
+/* HEADER: LOGO & NAV */
 header {
   position: fixed;
   display: inline-block;
@@ -41,12 +42,13 @@ header {
 .header-nav a {
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Gotham SSm A','Gotham SSm B';
-  font-style: normal;
-  font-weight: 700;
-  color: #484e51;
+  font-family: Arial;
+  font-size: 10px;
+  font-style: bold;
+  color: #363636;
 }
 
+/* MAIN: BANNER, GALLERY, BIO */
 /*.photo-gallery {
   position: absolute;
   width: 100%;
