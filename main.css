@@ -1,15 +1,18 @@
-body{
+.container {
   max-width: 1200px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   float: none;
 }
 
 /* HEADER: LOGO & NAV */
 header {
-  position: fixed;
   display: inline-block;
-  width: 80%;
+  box-sizing: border-box;
+  width: 100%;
   height: auto;
+  padding: 0 10%;
+  z-index: 2;
   border: 1px solid #204156;
 }
 
@@ -17,14 +20,13 @@ header {
   max-width: 200px;
   width: auto;
   height: auto;
-  margin-left: 20px;
 }
 
 #logo {
   float: left;
   width: 70%;
   height: auto;
-  border: 1px solid #204158;
+
 }
 
 .nav-list {
@@ -49,34 +51,51 @@ header {
 
 /* MAIN: BANNER, GALLERY, BIO */
 main{
-  position: relative;
-  width: 80%;
+  box-sizing: border-box;
+  width: 100%;
   height: auto;
+  padding: 0 10%;
   border: 1px solid #204156;
 }
 
 .hero-banner {
-  max-width: 1062px;
+  max-width: 1200px;
   width: auto;
+  height: auto;
+  border: 1px solid #204156;
+}
+
+#banner1 {
+  width: 100%;
   height: auto;
 }
 
-#banner {
-  width: auto;
+#banner2 {
+  width: 100%;
   height: auto;
 }
-/*.photo-gallery {
-  position: absolute;
+
+#banner3 {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  height: auto;
 }
 
-#photo {
-  width: 100%;
+.ad-list {
+  display: inline-block;
+  list-style: none;
+  border: 1px solid #204156;
+
 }
 
+.ad-list li {
+  display: inline;
+}
+
+#ad {
+  width: 30%
+}
+
+/*
 footer {
   position: relative;
   display: inline;
@@ -91,5 +110,16 @@ footer {
 .footer-list {
   float: right;
   display: inline;
+}
+
+
+
+
+.photo-gallery {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 */
