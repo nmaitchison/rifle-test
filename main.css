@@ -48,19 +48,10 @@ header {
   text-decoration: none;
 }
 
-/* MAIN: BANNER, GALLERY, BIO */
-main{
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  padding: 0 10%;
-  border: 1px solid #204156;
-}
-
 .circle-div {
-  float: right;
   display: block;
-  margin-right: 5%;
+  float: right;
+  margin-right: -40%;
   width: 100px;
   height: 100px;
   -moz-border-radius: 50px;
@@ -77,6 +68,15 @@ main{
   font-family: Georgia;
   font-size: 15px;
   color: #484e51;
+}
+
+/* MAIN: BANNER, GALLERY, BIO */
+main{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 0 10%;
+  border: 1px solid #204156;
 }
 
 .percent{
