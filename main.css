@@ -57,6 +57,34 @@ main{
   border: 1px solid #204156;
 }
 
+.circle-div {
+  float: right;
+  display: block;
+  margin-right: 5%;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #f1f1f1;
+  z-index: 3;
+}
+
+.save-text {
+  text-align: center;
+}
+.save{
+  font-family: Georgia;
+  font-size: 15px;
+  color: #484e51;
+}
+
+.percent{
+  font-family: Georgia;
+  font-size: 35px;
+  color: #484e51;
+}
+
 .hero-banner {
   max-width: 1200px;
   width: auto;
@@ -141,7 +169,7 @@ footer {
 .copy-right {
   float: left;
   font-family: Arial;
-  font-size: 9px;
+  font-size: 10px;
   color: #9f9d93;
   text-transform: uppercase;
   border: 1px solid #204156;
@@ -159,7 +187,7 @@ footer {
 
 .footer-links a {
   font-family: Arial;
-  font-size: 9px;
+  font-size: 10px;
   color: #9f9d93;
   text-transform: uppercase;
   text-decoration: none;
