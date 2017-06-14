@@ -5,7 +5,7 @@
   float: none;
 }
 
-/* HEADER: LOGO & NAV */
+/* HEADER: LOGO & NAV & SAVE AD */
 header {
   display: inline-block;
   box-sizing: border-box;
@@ -16,6 +16,7 @@ header {
   border: 1px solid #204156;
 }
 
+/* HEADER: LOGO */
 .header-logo {
   max-width: 200px;
   width: auto;
@@ -29,6 +30,7 @@ header {
 
 }
 
+/* HEADER: NAV */
 .nav-list {
   float: right;
   margin-top: 55px;
@@ -48,10 +50,12 @@ header {
   text-decoration: none;
 }
 
+/* HEADER: SAVE AD */
 .circle-div {
+  position: absolute;
   display: block;
-  float: right;
-  margin-right: -40%;
+  top: 12.5%;
+  left: 73%;
   width: 100px;
   height: 100px;
   -moz-border-radius: 50px;
@@ -64,32 +68,41 @@ header {
 .save-text {
   text-align: center;
 }
-.save{
+
+.save {
   font-family: Georgia;
-  font-size: 15px;
+  font-size: 12px;
   color: #484e51;
 }
 
-/* MAIN: BANNER, GALLERY, BIO */
+.percent {
+  font-family: Georgia;
+  font-size: 30px;
+  color: #484e51;
+}
+
+/* MAIN: BANNER */
 main{
   box-sizing: border-box;
   width: 100%;
   height: auto;
   padding: 0 10%;
-  border: 1px solid #204156;
+
 }
 
-.percent{
-  font-family: Georgia;
-  font-size: 35px;
-  color: #484e51;
-}
-
+/* MAIN: SLIDING BANNER */
 .hero-banner {
+  position: relative;
+  margin: auto;
   max-width: 1200px;
   width: auto;
   height: auto;
+
   border: 1px solid #204156;
+}
+
+.slide {
+  display: none;
 }
 
 #banner1 {
@@ -107,25 +120,59 @@ main{
   height: auto;
 }
 
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* SLIDING BANNER: Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* MAIN: AD GALLERY */
+
 .ad-gallery {
   display: inline-block;
   box-sizing: border-box;
   max-width: 1200px;
   width: auto;
   height: auto;
-  border: 1px solid #204156;
 }
 
 #ad {
   width: 30%;
 }
 
+/* MAIN: BIO */
 .bio {
   width: 60%;
   height: auto;
   margin: 0 auto;
   align-items: center;
-  border: 1px solid #204156;
 }
 
 .bio-title {
@@ -156,29 +203,39 @@ main{
   text-decoration: none;
 }
 
-/* FOOTER */
+/*.main-border {
+  width: 100%;
+  border-bottom: 1px solid #9f9d93;
+}*/
 
+/* FOOTER: COPYRIGHT & SOCIAL MEDIA LINKS*/
 footer {
   box-sizing: border-box;
   width: 100%;
   height: auto;
   padding: 0 10%;
-  border: 1px solid #204156;
 }
 
-.copy-right {
+.footer-border {
+  width: 100%;
+  border-top: 1px solid #9f9d93;
+}
+
+/* FOOTER: COPYRIGHT */
+.copyright {
   float: left;
   font-family: Arial;
   font-size: 10px;
   color: #9f9d93;
   text-transform: uppercase;
-  border: 1px solid #204156;
+
 }
 
+/* FOOTER: SOCIAL MEDIA LINKS */
 .footer-list {
   float: right;
   display: inline;
-  border: 1px solid #204156;
+
 }
 
 .footer-list li {

@@ -5,17 +5,19 @@
     <meta charset="utf-8">
     <title>RIFLE PAPER Co.</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src='main.js'></script>
 
   </head>
   <body>
-<!-- HEADER: LOGO & NAV -->
+<!-- HEADER: LOGO & NAV & SAVE AD-->
   <div class="container">
     <header>
-
+      <!-- LOGO -->
       <div class="header-logo">
         <img id="logo" src="imgs/wreath-logo-transparent.png"/>
       </div>
 
+      <!-- NAV -->
       <nav class="header-nav">
         <ul class="nav-list">
           <li><a href="#">HOME</a></li>
@@ -25,11 +27,12 @@
         </ul>
       </nav>
 
+      <!-- SAVE AD-->
       <article class="save-ad">
         <div class="circle-div">
           <div class="save-text">
-            <p class="save">save</p>
-            <p class"percent">15%</p>
+            <h3 class="save">SAVE</h3>
+            <h2 class="percent">15%</h2>
           </div>
         </div>
       </article>
@@ -37,44 +40,55 @@
     </header>
 
 <!-- MAIN: BANNER, GALLERY, BIO -->
-    <main class="main-container">
-
-      <!-- <article class="save-ad">
-        <div class="circle-div">
-          <div class="save-text">
-            <p class="save">save</p>
-            <p class"percent">15%</p>
-          </div>
-        </div>
-      </article> -->
-
+    <main>
+      <!-- sliding banner -->
       <article class= "hero-banner">
-        <img id="banner1" src="imgs/2017-Spiral-R.jpg"/>
-        <img id="banner3" src="imgs/2016-leSportsac-Sale-Final.jpg"/>
-        <img id="banner2" src="imgs/2017-calendars-blue-final.jpg"/>
+        <div class="slide fade">
+          <img id="banner1" src="imgs/2017-Spiral-R.jpg"/>
+        </div>
+        <div class="slide fade">
+          <img id="banner3" src="imgs/2016-leSportsac-Sale-Final.jpg"/>
+        </div>
+        <div class="slide fade">
+          <img id="banner2" src="imgs/2017-calendars-blue-final.jpg"/>
+        </div>
       </article>
 
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <!-- ad galler -->
       <article class= "ad-gallery">
         <img id="ad" src="imgs/collection-small-papercrown-resp.jpg"/>
         <img id="ad" src="imgs/iphones-7-Preorder.jpg"/>
         <img id="ad" src="imgs/tapestry-oversized-R.jpg"/>
       </article>
 
+      <!-- bio -->
       <article class= "bio">
         <h2 class="bio-title">RIFLE PAPER Co.</h2>
         <p class="bio-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare sed sem quis suscipit. Pellentesque ac leo pretium, pharetra justo eu, lobortis massa. Nulla suscipit euismod libero, adipiscing commodo mi euismod vel. Duis ante ante, ullamcorper dapibus pulvinar ut, convallis non libero. Morbi ornare sed sem quis suscipit. Pellentesque ac leo pretium, pharetra justo eu, lobortis massa.</p>
         <h3 class="bio-learn"><a href="#">LEARN MORE</a></h3>
       </article>
 
+      <!-- <div class= "main-border"></div> -->
+
     </main>
 
 <!-- FOOTER: COPYRIGHT & SOCIAL MEDIA LINKS -->
     <footer>
 
-      <div class="footer-copy-right">
-        <p class="copy-right">COPYRIGHT © 2008–2016 RIFLE, INC. ALL RIGHTS RESERVED</p>
+      <div class= "footer-border"></div>
+
+      <!-- COPY RIGHT-->
+      <div class="footer-copyright">
+        <h6 class="copyright">COPYRIGHT © 2008–2016 RIFLE, INC. ALL RIGHTS RESERVED</h6>
       </div>
 
+      <!-- SOCIAL MEDIA LINKS -->
       <nav class="footer-links">
         <ul class= "footer-list">
           <li><a href="#">INSTAGRAM</a></li>
