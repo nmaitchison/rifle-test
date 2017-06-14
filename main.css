@@ -97,7 +97,6 @@ main{
   max-width: 1200px;
   width: auto;
   height: auto;
-
   border: 1px solid #204156;
 }
 
@@ -121,18 +120,24 @@ main{
 }
 
 .dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 5px;
+  height: 18px;
+  width: 18px;
   border-radius: 50%;
+  transition: border 0.6s ease;
   display: inline-block;
-  transition: background-color 0.6s ease;
+
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  color: #9f9d93;
+
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  border: 1px solid #9f9d93;
 }
 
 /* SLIDING BANNER: Fading animation */
