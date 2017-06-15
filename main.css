@@ -13,7 +13,7 @@ header {
   height: auto;
   padding: 0 10%;
   z-index: 2;
-  border: 1px solid #204156;
+  /*border: 1px solid #204156;*/
 }
 
 /* HEADER: LOGO */
@@ -57,9 +57,9 @@ header {
   position: absolute;
   display: block;
   top: 10%;
-  left: 73%;
-  width: 100px;
-  height: 100px;
+  left: 74%;
+  width: 80px;
+  height: 80px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -73,13 +73,16 @@ header {
 
 .save {
   font-family: Georgia;
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 2;
   color: #484e51;
 }
 
 .percent {
   font-family: Georgia;
   font-size: 30px;
+  font-weight: 500;
   color: #484e51;
 }
 
@@ -101,9 +104,9 @@ main{
   height: auto;
 }
 
-.slide {
+/*.slide {
   display: none;
-}
+}*/
 
 #banner1 {
   width: 100%;
@@ -125,21 +128,21 @@ main{
   cursor: pointer;
   margin: 5px;
   padding: 0px;
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
-  border: 1px solid #9f9d93;
+  border: 1px solid transparent;
   transition: border 0.6s ease;
   display: inline-block;
 
-  line-height: 20px;
+  line-height: 23px;
   font-family: Arial;
-  font-size: 12px;
-  color: #9f9d93;
+  font-size: 11px;
+  color: #484e51;
 }
 
 .active, .dot:hover {
-  border: 1px solid #9f9d93;
+  border: 1px solid #e5e6e6;
 }
 
 /* SLIDING BANNER: Fading animation */
@@ -177,7 +180,7 @@ main{
 
 /* MAIN: BIO */
 .bio {
-  width: 60%;
+  width: 55%;
   height: auto;
   margin: 0 auto;
   align-items: center;
@@ -186,7 +189,7 @@ main{
 .bio-title {
   font-family: Arial;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 20px;
   color: #484e51;
   text-align: center;
 
@@ -194,7 +197,8 @@ main{
 
 .bio-paragraph {
   font-family: Georgia;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 400;
   color: #484e51;
   text-align: center;
 }
@@ -206,7 +210,7 @@ main{
 .bio-learn a {
   font-family: Arial;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   color: #ce6127;
   text-decoration: none;
 }
@@ -232,6 +236,7 @@ footer {
 /* FOOTER: COPYRIGHT */
 .copyright {
   float: left;
+  margin-left: 15px;
   font-family: Arial;
   font-size: 10px;
   color: #9f9d93;
@@ -247,6 +252,7 @@ footer {
 }
 
 .footer-list li {
+   margin: 0 15px 0 0;
    display: inline;
 }
 
