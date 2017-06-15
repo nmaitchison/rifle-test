@@ -90,7 +90,7 @@ header {
 main{
   box-sizing: border-box;
   width: 100%;
-  height: auto;
+  height: auto%;
   padding: 0 10%;
 
 }
@@ -176,6 +176,7 @@ main{
 
 #ad {
   width: 30%;
+  height: 30%;
 }
 
 /* MAIN: BIO */
