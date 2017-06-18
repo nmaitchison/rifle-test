@@ -189,6 +189,7 @@ main{
 
 .bio-title {
   font-family: Arial;
+  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   color: #484e51;
@@ -198,6 +199,7 @@ main{
 
 .bio-paragraph {
   font-family: Georgia;
+  font-style: normal;
   font-size: 13px;
   font-weight: 400;
   color: #484e51;
@@ -230,6 +232,7 @@ footer {
 }
 
 .footer-border {
+
   width: 100%;
   border-top: 1px solid #9f9d93;
 }

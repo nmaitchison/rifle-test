@@ -1,8 +1,12 @@
 
 var slideIndex = 0;
-showSlides();
+showSlides(slideIndex);
 
-function showSlides() {
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("slide");
     var dots = document.getElementsByClassName("dot");
@@ -12,9 +16,10 @@ function showSlides() {
     }
 
     slideIndex++;
-    if (slideIndex> slides.length) {
+
+    if (slideIndex > slides.length) {
       slideIndex = 1
-    }
+    } //makes it start over
 
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
@@ -22,20 +27,16 @@ function showSlides() {
 
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-
-    setTimeout(showSlides, 6000); // Change image every 4 seconds
+setInterval(showSlides, 6000); // Change image every 6 seconds
 }
 
+/*setInterval(showSlides, 6000); // Change image every 6 seconds */
 
 
 /*
 /* MANUAL */ /*
 var slideIndex = 1;
 showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -45,8 +46,12 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slide");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
